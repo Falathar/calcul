@@ -48,5 +48,23 @@ public class Helloworld{
 			
 		}
 		
+		else if (operation == 'c')
+		{
+			int nombre1;
+			int nombre2;
+			int resultat; 
+
+			System.out.println("Vous avez choisie la division");
+			System.out.println("Entrez le premier nombre");
+			nombre1 = sc.nextInt();
+			System.out.println("entre le deuxieme nombre");
+			nombre2= sc.nextInt();
+
+			resultat=nombre1/nombre2;
+
+			System.out.println("le resulat est:"+resultat);
+
+		}
+		
 	}
 }
